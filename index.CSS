@@ -1,0 +1,43 @@
+
+@font-face {
+font-family: 'Poiret One';
+src: url('Poiret_One.ttf');
+}
+.text_effect {
+font-family: 'Poiret One';
+color: rgb(73, 97, 101);
+font-size: 40px;
+background-color: rgb(255, 255, 255);
+vertical-align: middle;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+nav ul li {
+	margin: 0 1rem;
+}
+body { background: url(fon.png); margin-bottom: 0px; }
+  .brd {
+    border: 2px solid rgb(73, 97, 101);
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    vertical-align: middle;}
+    .sign {
+    	float: right;
+    	text-align: center;
+    }
+    .foo {
+    	font-size: 12px;
+    	padding: 2px;
+    	margin-top: 180px;
+    	margin-bottom: 0px;
+    	flex: 0 0 auto;
+    	background-color: #AFDAFC;
+    } 
