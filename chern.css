@@ -1,0 +1,15 @@
+    text-size-adjust: 100%;
+    color: #484848;
+    box-sizing: border-box;
+    -webkit-font-smoothing: auto;
+    overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
+    background: #ddd;
+    font: 12px/1.5 Helvetica Neue,Arial,Helvetica,sans-serif;
+    background-color: #fff;
+    touch-action: pan-x pan-y;
+    border: 1px solid #d7dfe7;
+    width: 100%;
+    height: 621px;
+    position: relative;
+    outline: none;

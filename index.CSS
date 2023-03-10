@@ -36,8 +36,55 @@ body { background: url(fon.png); margin-bottom: 0px; }
     .foo {
     	font-size: 12px;
     	padding: 2px;
-    	margin-top: 180px;
+    	margin-top: 100px;
     	margin-bottom: 0px;
     	flex: 0 0 auto;
-    	background-color: #AFDAFC;
+    	background-color: #E6E6FA;
+    	text-align: center;
     } 
+@font-face {
+font-family: 'Exo_2.0_Light';
+src: url('Exo_2.0_Light.ttf');
+}
+.text_effec {
+font-family: 'Exo_2.0_Light';
+color: rgb(73, 97, 101);
+vertical-align: middle;
+}
+.text_effect
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+.tex
+{
+	background-color: white;
+	margin-top: 70px;
+	margin-left: 25px;
+	margin-right: 25px;
+	border: 2px solid rgb(73, 97, 101);
+    background: rgb(255, 255, 255);
+    padding: 2px;
+    text-align: left;
+    padding-left: 10px;
+}
+a{
+  text-decoration:none;
+  color: inherit;
+}
+nav ul .menu
+{
+  justify-content: right;
+  display: flex;
+}
+nav ul .zag
+{
+  padding-left: 10px;
+  justify-content: left;
+}
+.kk nav ul
+{
+  display: flex;
+  align-items: center;
+}
