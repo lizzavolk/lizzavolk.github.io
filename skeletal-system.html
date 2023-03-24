@@ -145,6 +145,27 @@
 <li><strong>· Фасетка</strong> — гладкая, плоская область, обычно покрытая хрящом (например, суставная фасетка на позвонках).</li>
 <li><strong>· Отверстие </strong>— проход через кость (например, большое затылочное отверстие на затылочной кости)</li>
 </ul>
+<h3><script>document.write(subtitle)</script></h3>
+    <form name="quiz">
+    <ol>
+        <script>
+        for(var q=0; q<questions.length; ++q) {
+           var question = questions[q];
+           var idx = 1 + q;
+
+           document.writeln('<li><span class="quest">' + question.text + '</span><br>');
+           for(var i in question.answers) {
+            document.writeln('<label><input type=radio name="q' + idx + '" value="' + i +
+            '" onClick="Engine(' + q + ', this.value)"> ' + question.answers[i] + '</label><br>');
+        }
+            document.writeln('</li>');
+        }
+        </script>
+    </ol>
+        <br>
+        <input type="button" class="but" onClick="Score()" value="Проверить результаты">
+    </form>
+</div>
 </div>
 <footer>
 	<div class="foo">

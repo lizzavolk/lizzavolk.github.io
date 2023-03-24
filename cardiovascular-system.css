@@ -230,3 +230,14 @@ table.facts td:first-child{
     margin: auto;
     margin-top: 60px;
 }
+ span.quest {font-weight: bold;}
+    label {margin-left: 15px;}
+  .but{
+  border: 0;
+  border-radius: 5px;
+  background: #4D7198;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+  margin-left: 15px;
+}
