@@ -14,7 +14,8 @@ body { background: url(fon.png); margin-bottom: 0px; }
     border: 2px solid rgb(73, 97, 101);
     background: rgb(255, 255, 255);
     padding: 5px;
-    vertical-align: middle;}
+    vertical-align: middle;
+  flex: 0 0 auto;}
     .sign {
     	float: right;
     	text-align: center;
